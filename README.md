@@ -1,2 +1,64 @@
 # Cofe
-Hlooo kooo okkk
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SereniTea | Artisanal Tea House</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; background-color: #fdfaf6; }
+        h1, h2 { font-family: 'Playfair Display', serif; }
+        .sketch-border { border: 2px dashed #8b7355; border-radius: 255px 15px 225px 15px/15px 225px 15px 255px; }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <nav class="flex justify-between items-center py-8 px-10">
+        <div class="text-3xl font-bold text-stone-800 italic">SereniTea</div>
+        <div class="space-x-8 text-stone-600">
+            <a href="#" class="hover:text-stone-900">Our Story</a>
+            <a href="#" class="hover:text-stone-900">Menu</a>
+            <a href="#" class="hover:text-stone-900">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="text-center py-20 px-4">
+        <h1 class="text-6xl text-stone-900 mb-6">Crafting Calm in a Cup</h1>
+        <p class="max-w-2xl mx-auto text-lg text-stone-600 mb-10">Experience the hand-picked essence of high-altitude tea leaves, brewed with passion and served with a story.</p>
+        <button class="bg-stone-800 text-white px-10 py-3 rounded-full hover:bg-stone-700 transition">View Our Collection</button>
+    </header>
+
+    <!-- Artisanal Features -->
+    <section class="max-w-6xl mx-auto grid md:grid-cols-3 gap-10 py-20 px-6">
+        <div class="sketch-border p-8 text-center">
+            <div class="text-4xl mb-4">🌿</div>
+            <h2 class="text-2xl mb-2">Organic Origins</h2>
+            <p class="text-sm text-stone-500">Sourced directly from sustainable mountain farms.</p>
+        </div>
+        <div class="sketch-border p-8 text-center">
+            <div class="text-4xl mb-4">🔥</div>
+            <h2 class="text-2xl mb-2">Slow-Roasted</h2>
+            <p class="text-sm text-stone-500">Master-roasted in small batches for deep flavor.</p>
+        </div>
+        <div class="sketch-border p-8 text-center">
+            <div class="text-4xl mb-4">🍵</div>
+            <h2 class="text-2xl mb-2">Hand-Blended</h2>
+            <p class="text-sm text-stone-500">Each cup is a unique, human-crafted experience.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-10 text-stone-400 text-sm">
+        &copy; 2026 SereniTea Cafe. All rights reserved. Built with love for tea lovers.
+    </footer>
+
+</body>
+</html>
+
+```
